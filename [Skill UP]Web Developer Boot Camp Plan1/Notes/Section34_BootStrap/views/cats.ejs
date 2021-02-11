@@ -1,0 +1,15 @@
+<%- include('partials/head')%>
+    <%- include('partials/navbar')%>
+
+
+        <body>
+            <h1>All The Cats</h1>
+            <%for(let cat of cats){%>
+                <li>
+                    <%=cat%>
+                        v
+                </li>
+                <%}%>
+        </body>
+
+        </html>
