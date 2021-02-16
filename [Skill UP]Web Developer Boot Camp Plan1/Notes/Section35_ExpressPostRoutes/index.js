@@ -1,7 +1,8 @@
 const express = require("express");
 const app = express();
 
-//source code is used to mod
+//source code is used to modift resykt
+//tell express how to parse it
 app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
 
 app.get('/tacos', (req, res) => {
@@ -9,7 +10,7 @@ app.get('/tacos', (req, res) => {
 })
 
 app.post('/tacos', (req, res) => {
-    const { meat, qty } = req.body;
+    const { meat, qty } = req.body; //search definityion of req.body
     res.send(`OK I RECEIVED: ${meat} ${qty}`);
 })
 
