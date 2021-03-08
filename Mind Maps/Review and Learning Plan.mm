@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1615110724971" ID="ID_1411112413" MODIFIED="1615115276632" TEXT="Review  Plan">
+<node CREATED="1615110724971" ID="ID_1411112413" MODIFIED="1615172031080" TEXT="Review  Plan">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1615111296854" ID="ID_388119377" MODIFIED="1615115471789" POSITION="left" TEXT="REVIEW METHOD">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
@@ -16,9 +16,6 @@
 <node COLOR="#000000" CREATED="1615110836867" ID="ID_889915586" MODIFIED="1615114592394" STYLE="fork" TEXT="Ajax &quot;YT Dev Ed&quot;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="messagebox_warning"/>
-<node CREATED="1615110920840" ID="ID_1214524745" MODIFIED="1615114592394" STYLE="fork" TEXT="Axios">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
 <node CREATED="1615164293808" ID="ID_1997964819" MODIFIED="1615164465319" TEXT="AJAX  &quot;Asynchornous Javascript and XML&quot;">
 <node CREATED="1615164369051" ID="ID_1171336319" MODIFIED="1615164414983" TEXT="XML is format to send data from server to browser, server to server"/>
 <node CREATED="1615164526534" ID="ID_90501950" MODIFIED="1615164541386" TEXT="Ajax is used to used to request data to the server"/>
@@ -56,7 +53,31 @@
 <node CREATED="1615165791615" ID="ID_915124399" MODIFIED="1615165830481" TEXT="is invoken when the outer function finished a routine or actions"/>
 <node CREATED="1615170660831" ID="ID_170227409" MODIFIED="1615170771892" TEXT="Callback helll are callbacks functions"/>
 </node>
-<node CREATED="1615110908462" ID="ID_511742379" MODIFIED="1615114592394" STYLE="fork" TEXT="Promises">
+<node CREATED="1615110908462" ID="ID_511742379" MODIFIED="1615174817522" STYLE="fork" TEXT="Promises">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1615170798321" ID="ID_1052314942" MODIFIED="1615170835611" TEXT="A promise is an object that give us a result of a async operation"/>
+<node CREATED="1615171930495" ID="ID_5908065" MODIFIED="1615171944708" TEXT="term for using data from a promise is &quot;consuming a promise&quot;">
+<node CREATED="1615172383351" ID="ID_597906678" MODIFIED="1615172383351" TEXT=""/>
+</node>
+<node CREATED="1615172387931" ID="ID_272304145" MODIFIED="1615172421954" TEXT="Cleaner implementation than callback"/>
+<node CREATED="1615174818554" ID="ID_751524864" MODIFIED="1615175052953">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Promise.all(yt,fb) //code for not waiting previous execution<br />returns value to .then when both promises of yt and fb are finished<br />
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1615173258430" ID="ID_413278791" MODIFIED="1615176635188" TEXT="Async Await">
+<node CREATED="1615173290373" ID="ID_405362340" MODIFIED="1615173312759" TEXT="Syntactical sugar of promise"/>
+</node>
+<node CREATED="1615110920840" ID="ID_1214524745" MODIFIED="1615114592394" STYLE="fork" TEXT="Axios">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
@@ -156,6 +177,19 @@
 </node>
 <node CREATED="1615115350226" ID="ID_1038297185" MODIFIED="1615115359777" TEXT="Mongoose">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1615178241273" ID="ID_435727921" MODIFIED="1615178460006">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Model represent information from some collection from db.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1615114931779" ID="ID_1716763823" MODIFIED="1615115479217" POSITION="left" TEXT="REVIEW SEQUENCE">
@@ -188,6 +222,9 @@
 </node>
 <node CREATED="1615115494281" ID="ID_1264143688" MODIFIED="1615115532954" POSITION="right" TEXT="20 JS PROJECTS">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1615172032697" ID="ID_1195715103" MODIFIED="1615172038475" POSITION="left" TEXT="Items to review">
+<node CREATED="1615172039615" ID="ID_628491283" MODIFIED="1615172327713" TEXT="try catch, then catch realted to error and promises"/>
 </node>
 </node>
 </map>
