@@ -16,16 +16,47 @@
 <node COLOR="#000000" CREATED="1615110836867" ID="ID_889915586" MODIFIED="1615114592394" STYLE="fork" TEXT="Ajax &quot;YT Dev Ed&quot;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="messagebox_warning"/>
-<node CREATED="1615110908462" ID="ID_511742379" MODIFIED="1615114592394" STYLE="fork" TEXT="Promises">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1615110914586" ID="ID_327456204" MODIFIED="1615114592394" STYLE="fork" TEXT="Async">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
 <node CREATED="1615110920840" ID="ID_1214524745" MODIFIED="1615114592394" STYLE="fork" TEXT="Axios">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
+<node CREATED="1615164293808" ID="ID_1997964819" MODIFIED="1615164465319" TEXT="AJAX  &quot;Asynchornous Javascript and XML&quot;">
+<node CREATED="1615164369051" ID="ID_1171336319" MODIFIED="1615164414983" TEXT="XML is format to send data from server to browser, server to server"/>
+<node CREATED="1615164526534" ID="ID_90501950" MODIFIED="1615164541386" TEXT="Ajax is used to used to request data to the server"/>
+</node>
+<node CREATED="1615110914586" ID="ID_327456204" MODIFIED="1615164710261" STYLE="fork" TEXT="Async code">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1615164714526" ID="ID_1521985438" MODIFIED="1615165390817">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Function execution is transferred from the JS callstack to Web API of the browser because JS is a single threaded application &quot;synchronous&quot;.<br /><br />-Timer functions<br />-Event listeners<br />
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1615164948055" ID="ID_1237433240" MODIFIED="1615165319352">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [Sample WebApi]<br />//Funtion to delay function execution<br />&#160;setTimeout(()=&gt;{},3000)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 <node CREATED="1615111285171" ID="ID_1927331184" MODIFIED="1615114592394" STYLE="fork" TEXT="Call Back">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1615165569502" ID="ID_135148472" MODIFIED="1615165789506" TEXT="A funciton that is  passed to a funciton"/>
+<node CREATED="1615165791615" ID="ID_915124399" MODIFIED="1615165830481" TEXT="is invoken when the outer function finished a routine or actions"/>
+<node CREATED="1615170660831" ID="ID_170227409" MODIFIED="1615170771892" TEXT="Callback helll are callbacks functions"/>
+</node>
+<node CREATED="1615110908462" ID="ID_511742379" MODIFIED="1615114592394" STYLE="fork" TEXT="Promises">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
@@ -143,8 +174,7 @@
       5)Study Andrei Neagoie Web Dev Boot camp<br />&quot;Supplement Knowledge Gaps&quot;<br />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1615114964739" ID="ID_1605102890" MODIFIED="1615115504468" POSITION="right" TEXT="JUNIOR TO SENIOR">
