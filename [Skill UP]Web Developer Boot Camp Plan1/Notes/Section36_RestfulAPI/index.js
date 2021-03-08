@@ -45,9 +45,8 @@ app.get('/comments/new', (req, res) => {
     res.render('comments/new')
 })
 
-//submit post request
+//submit post request for new comment
 app.post('/comments', (req, res) => {
-    console.log(req.body)
     const { username, comment } = req.body;
     comments.push({ username, comment, id: uuid() })
     res.redirect('/comments') //this will request again and redirect you to comments page
@@ -86,7 +85,7 @@ app.delete('/comments/:id', (req, res) => {
 })
 
 
-
+/*
 app.get('/tacos', (req, res) => {
     res.send("Get tacos response");
 })
@@ -94,7 +93,7 @@ app.get('/tacos', (req, res) => {
 app.post('/tacos', (req, res) => {
     const { meat, qty } = req.body; //search definityion of req.body
     res.send(`OK I RECEIVED: ${meat} ${qty}`);
-})
+})*/
 
 app.listen(3000, () => {
     console.log("Listening on PORT 3000");
