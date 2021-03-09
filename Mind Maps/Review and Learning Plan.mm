@@ -70,8 +70,7 @@
       Promise.all(yt,fb) //code for not waiting previous execution<br />returns value to .then when both promises of yt and fb are finished<br />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1615173258430" ID="ID_413278791" MODIFIED="1615176635188" TEXT="Async Await">
@@ -165,17 +164,20 @@
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1615113683143" ID="ID_598416139" MODIFIED="1615114592394" STYLE="fork" TEXT="Node Js">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1615181785400" ID="ID_653157347" MODIFIED="1615181804541" TEXT=".load index.js //load to repl"/>
 </node>
 <node CREATED="1615113688017" ID="ID_523752759" MODIFIED="1615114592394" STYLE="fork" TEXT="Express">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1615113695176" ID="ID_1006128086" MODIFIED="1615114592394" STYLE="fork" TEXT="Mongo">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1615181630863" ID="ID_1654599042" MODIFIED="1615182537795" TEXT="use movieApp // samle code to switch db if db does not exist automatically create new"/>
+<node CREATED="1615181654435" ID="ID_1214564297" MODIFIED="1615181691425" TEXT="db.movies.find() //list contents of movies db"/>
 </node>
 <node CREATED="1615115333658" ID="ID_39347235" MODIFIED="1615115344657" TEXT="NPM">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1615115350226" ID="ID_1038297185" MODIFIED="1615115359777" TEXT="Mongoose">
+<node CREATED="1615115350226" ID="ID_1038297185" MODIFIED="1615187320080" TEXT="Mongoose">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1615178241273" ID="ID_435727921" MODIFIED="1615178460006">
 <richcontent TYPE="NODE"><html>
@@ -187,6 +189,108 @@
       Model represent information from some collection from db.
     </p>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1615181748878" ID="ID_797762010" MODIFIED="1615181771269" TEXT="amadeus.save() //save to database"/>
+<node CREATED="1615187321207" ID="ID_268652675" MODIFIED="1615187469201">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [find] //All items<br />Movie.find({}).then(data=&gt;console.log(data))<br /><br />[find] //specific query<br />&#160;Movie.find({title:&quot;Harry Potter&quot;}).then(data=&gt;console.log(data))<br /><br />
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1615188643681" ID="ID_1543573630" MODIFIED="1615188660024">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [update]<br />Movie.updateOne({title:&quot;Test&quot;},{title:&quot;Vikings&quot;}).then(res=&gt;co
+    </p>
+    <p>
+      nsole.log(res))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1615189154199" ID="ID_755333530" MODIFIED="1615189166407">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [update]<br />Movie.findOneAndUpdate({title:'Vikings'},{year:2017},{new:true }).then(data=&gt;console.log(data))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1615190116738" ID="ID_1539641392" MODIFIED="1615190126445">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [delete]<br />Movie.remove({title:&quot;Lord Of the Rings&quot;}).then(m=&gt;console.log(
+    </p>
+    <p>
+      m))<br />
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1615193962980" ID="ID_1036857990" MODIFIED="1615194601009" TEXT="Note: Type validations are applied in create and not in update set runValidators:true">
+<icon BUILTIN="closed"/>
+</node>
+<node CREATED="1615196904562" ID="ID_147507099" MODIFIED="1615253643730">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      We can add custom methods&#160;to our model.<br />[diff between static and instance]<br />Product.save() //this is a class method or static method<br />new Product().save() //save is on an instance&#160;&#160;of products<br />
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1615198243188" ID="ID_1185662420" MODIFIED="1615250645801" TEXT="[sample implementation for instance]&#xa;productSchema.methods.greet = function () {     &#xa;console.log(&quot;Hellow CUSTOMER!&quot;);     &#xa;console.log(`-from ${this.name}`);  }">
+<node CREATED="1615198821899" ID="ID_1230060486" MODIFIED="1615198847702" TEXT="Note: If data is needed to be modified on a model put the implementation on the model"/>
+<node CREATED="1615250249863" ID="ID_1922424334" MODIFIED="1615250760931">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Note: the keyword this refers to the instance of the model<br />in simple term refers to one particular product<br />
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1615250641495" ID="ID_931656304" MODIFIED="1615250670258" TEXT="[implementation for class method] &#xa;productSchema.statics.fireSale = function () &#xa;{  return this.updateMany({ price: 0 }) }">
+<node CREATED="1615250706581" ID="ID_663947877" MODIFIED="1615250723796" TEXT="Note: we are simply adding method to the product itself"/>
+</node>
+</node>
+<node CREATED="1615253651988" ID="ID_49545408" MODIFIED="1615253834323">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [Virtual functions]<br />-Implementation that exsist only on the model. no need to access db. it;s like an illusion..<br />-used to update data within the model.<br />
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
@@ -194,8 +298,12 @@
 </node>
 <node CREATED="1615114931779" ID="ID_1716763823" MODIFIED="1615115479217" POSITION="left" TEXT="REVIEW SEQUENCE">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1615114983913" ID="ID_634798226" MODIFIED="1615115065174" TEXT="1)DevEd Video"/>
-<node CREATED="1615115040619" ID="ID_1955451769" MODIFIED="1615115078584" TEXT="2) Continue Mongoose Topic"/>
+<node CREATED="1615114983913" ID="ID_634798226" MODIFIED="1615202228840" TEXT="1)DevEd Video">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1615115040619" ID="ID_1955451769" MODIFIED="1615202250528" TEXT="2) Continue Mongoose Topic">
+<icon BUILTIN="full-1"/>
+</node>
 <node CREATED="1615115082057" ID="ID_1988932799" MODIFIED="1615115217922" TEXT="3)Finish Colt Course"/>
 <node CREATED="1615115117459" ID="ID_470385572" MODIFIED="1615115221391" TEXT="4)Review Colts Course All Items"/>
 <node CREATED="1615115160346" ID="ID_441412801" MODIFIED="1615115248891">
