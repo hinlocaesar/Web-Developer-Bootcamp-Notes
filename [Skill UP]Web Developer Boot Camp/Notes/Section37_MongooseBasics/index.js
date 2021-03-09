@@ -22,7 +22,7 @@ const Movie = mongoose.model('Movie', movieSchema)
 
 //create new instance of movie
 const amadeus = new Movie({ title: 'Amadeus', year: 1986, score: 9.2, rating: 'R' })
-
+const lordoftherings = new Movie({ title: 'Lord Of the Rings', year: 1986, score: 9.2, rating: 'R' })
 
 //find operation
 
