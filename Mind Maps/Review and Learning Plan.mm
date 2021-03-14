@@ -135,7 +135,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1615113524536" ID="ID_1120804408" MODIFIED="1615114592394" STYLE="fork" TEXT="CSS">
+<node CREATED="1615113524536" ID="ID_1120804408" MODIFIED="1615630429302" STYLE="fork" TEXT="CSS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1615113535545" ID="ID_1557419183" MODIFIED="1615114592394" STYLE="fork" TEXT="Selectors">
 <font NAME="SansSerif" SIZE="12"/>
@@ -146,6 +146,27 @@
 <node CREATED="1615113549016" ID="ID_58790661" MODIFIED="1615114592394" STYLE="fork" TEXT="Grid">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
+<node CREATED="1615609972699" ID="ID_911655979" MODIFIED="1615610442405" TEXT="Display Property">
+<node CREATED="1615609980382" ID="ID_1167317787" MODIFIED="1615629989851" TEXT="Block ">
+<node CREATED="1615630005849" ID="ID_1379316273" MODIFIED="1615630072932" TEXT="It consume a whole row and does not share spaces to other elements"/>
+<node CREATED="1615634709173" ID="ID_1983681038" MODIFIED="1615634713095" TEXT="div etc"/>
+</node>
+<node CREATED="1615609991259" ID="ID_1136452880" MODIFIED="1615634701056" TEXT="Inline">
+<node CREATED="1615630075041" ID="ID_1179838260" MODIFIED="1615630101288" TEXT="cosume the least amount of space possible, share row to other elements"/>
+<node CREATED="1615630102856" ID="ID_1888642024" MODIFIED="1615630111250" TEXT="cannot adjust width and height"/>
+<node CREATED="1615634701975" ID="ID_120923721" MODIFIED="1615634706373" TEXT="span, a"/>
+</node>
+<node CREATED="1615610442406" ID="ID_238930335" MODIFIED="1615629997995" TEXT="Inline Block">
+<node CREATED="1615630112433" ID="ID_95222138" MODIFIED="1615630126952" TEXT="same behavior with inline but can modity widh and height">
+<node CREATED="1615630198953" ID="ID_932025694" MODIFIED="1615630198953" TEXT=""/>
+</node>
+</node>
+</node>
+<node CREATED="1615630202480" ID="ID_906988471" MODIFIED="1615630207384" TEXT="Position Property">
+<node CREATED="1615636228375" ID="ID_1869868608" MODIFIED="1615636239603" TEXT="static is default"/>
+<node CREATED="1615636243326" ID="ID_1340149696" MODIFIED="1615636246475" TEXT="relative"/>
+</node>
+<node CREATED="1615630430593" ID="ID_1635033927" MODIFIED="1615630436356" TEXT="Media Queries"/>
 </node>
 <node CREATED="1615113529456" ID="ID_336993083" MODIFIED="1615114592394" STYLE="fork" TEXT="JS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -169,10 +190,12 @@
 <node CREATED="1615113688017" ID="ID_523752759" MODIFIED="1615114592394" STYLE="fork" TEXT="Express">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1615113695176" ID="ID_1006128086" MODIFIED="1615114592394" STYLE="fork" TEXT="Mongo">
+<node CREATED="1615113695176" ID="ID_1006128086" MODIFIED="1615612279945" STYLE="fork" TEXT="Mongo">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1615181630863" ID="ID_1654599042" MODIFIED="1615182537795" TEXT="use movieApp // samle code to switch db if db does not exist automatically create new"/>
 <node CREATED="1615181654435" ID="ID_1214564297" MODIFIED="1615181691425" TEXT="db.movies.find() //list contents of movies db"/>
+<node CREATED="1615612280848" ID="ID_1050529795" MODIFIED="1615612283604" TEXT="show databases"/>
+<node CREATED="1615612335154" ID="ID_290838000" MODIFIED="1615612340056" TEXT="show collections"/>
 </node>
 <node CREATED="1615115333658" ID="ID_39347235" MODIFIED="1615115344657" TEXT="NPM">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -259,8 +282,7 @@
       We can add custom methods&#160;to our model.<br />[diff between static and instance]<br />Product.save() //this is a class method or static method<br />new Product().save() //save is on an instance&#160;&#160;of products<br />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1615198243188" ID="ID_1185662420" MODIFIED="1615250645801" TEXT="[sample implementation for instance]&#xa;productSchema.methods.greet = function () {     &#xa;console.log(&quot;Hellow CUSTOMER!&quot;);     &#xa;console.log(`-from ${this.name}`);  }">
 <node CREATED="1615198821899" ID="ID_1230060486" MODIFIED="1615198847702" TEXT="Note: If data is needed to be modified on a model put the implementation on the model"/>
 <node CREATED="1615250249863" ID="ID_1922424334" MODIFIED="1615250760931">
@@ -273,8 +295,7 @@
       Note: the keyword this refers to the instance of the model<br />in simple term refers to one particular product<br />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1615250641495" ID="ID_931656304" MODIFIED="1615250670258" TEXT="[implementation for class method] &#xa;productSchema.statics.fireSale = function () &#xa;{  return this.updateMany({ price: 0 }) }">
@@ -291,8 +312,7 @@
       [Virtual functions]<br />-Implementation that exsist only on the model. no need to access db. it;s like an illusion..<br />-used to update data within the model.<br />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
