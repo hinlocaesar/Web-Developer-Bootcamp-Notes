@@ -1,7 +1,8 @@
 img{
     width:450px;
     height:300px;
-  margin:10px;
+    margin:10px;
+    transition:all 1s;
 }
 h1{
     font-family: fantasy;
@@ -16,5 +17,9 @@ h1{
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
-  
+    
+}
+
+img:hover{
+    transform:scale(1.1);
 }

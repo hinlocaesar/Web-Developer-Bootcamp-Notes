@@ -652,7 +652,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1616213039736" ID="ID_1099495827" MODIFIED="1616220298241" POSITION="left" TEXT="Git/Github">
+<node CREATED="1616213039736" ID="ID_1099495827" MODIFIED="1616222261436" POSITION="left" TEXT="Git/Github">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1616219841617" ID="ID_1106214321" MODIFIED="1616219976793" TEXT="Upload to Github">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -698,18 +698,37 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1616220134687" ID="ID_1648340026" MODIFIED="1616220138606" TEXT="git pull"/>
 </node>
-<node CREATED="1616220298242" ID="ID_1820568134" MODIFIED="1616220489441">
+<node CREATED="1616220298242" ID="ID_1820568134" MODIFIED="1616222160578">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      OTHER NOTES:<br />Github changes name <b>master</b>&#160;to <b>main</b>&#160;<br />because it sounds less offensive! HAHA<br />Old cold with still use master<br />
+      OTHER NOTES:<br />
     </p>
   </body>
 </html>
 </richcontent>
+<node CREATED="1616222139594" ID="ID_1596099009" MODIFIED="1616222152499" TEXT="Dont work on master always branch off"/>
+<node CREATED="1616222162134" ID="ID_963015057" MODIFIED="1616222171980" TEXT="Github changes name master&#xa0;to main&#xa0; because &#xa;it sounds less offensive! HAHA Old cold with still use master "/>
+</node>
+<node CREATED="1616222186832" ID="ID_1159144833" MODIFIED="1616222343127" TEXT="create branches">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1616222196043" ID="ID_656800099" MODIFIED="1616222346144" TEXT="git branch &lt;BRANCH NAME&gt;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1616222277134" ID="ID_670556273" MODIFIED="1616222343808" TEXT="view branches">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1616222286550" ID="ID_1271523699" MODIFIED="1616222346657" TEXT="git branch">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1616222327664" ID="ID_152888710" MODIFIED="1616222340063" TEXT="switch branch">
+<node CREATED="1616222341726" ID="ID_1124105967" MODIFIED="1616222376919" TEXT="git checkout &lt;BRANCH NAME&gt;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 </node>
