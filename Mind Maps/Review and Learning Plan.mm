@@ -298,6 +298,10 @@
 <node CREATED="1615787523471" ID="ID_1789492826" MODIFIED="1615787523471" TEXT=""/>
 </node>
 <node CREATED="1615787530086" ID="ID_1147687847" MODIFIED="1615787532599" TEXT="const"/>
+<node CREATED="1616131899031" ID="ID_194116806" MODIFIED="1616131899031" TEXT=""/>
+</node>
+<node CREATED="1615788364965" ID="ID_215639864" MODIFIED="1615788378006" TEXT="http://es6-features.org/"/>
+<node CREATED="1616131908862" ID="ID_1444457495" MODIFIED="1616206914517" TEXT="Advance JS">
 <node CREATED="1615792994865" ID="ID_1632599583" MODIFIED="1616130950621" TEXT="functions ">
 <node CREATED="1615793000584" ID="ID_1080550939" MODIFIED="1615793010706" TEXT="closure">
 <node CREATED="1615793010708" ID="ID_1356981766" MODIFIED="1615793067299" TEXT="child scope always has access to parent scope"/>
@@ -305,13 +309,158 @@
 <node CREATED="1615793095661" ID="ID_1120497562" MODIFIED="1615793106002" TEXT="currying">
 <node CREATED="1615793941129" ID="ID_1814400772" MODIFIED="1615793955307" TEXT="convert a function to accept value one at a time"/>
 </node>
-<node CREATED="1615795178311" ID="ID_1399767929" MODIFIED="1615795239200" TEXT="compose"/>
+<node CREATED="1615795178311" ID="ID_1399767929" MODIFIED="1615795239200" TEXT="compose">
+<node CREATED="1616152921094" ID="ID_767696425" MODIFIED="1616152933789" TEXT="accept function as arguments"/>
+</node>
 <node CREATED="1616130950622" ID="ID_1773622227" MODIFIED="1616130959104" TEXT="function purity">
 <node CREATED="1616130959107" ID="ID_542955750" MODIFIED="1616130970673" TEXT="dererministic means that result is consistent"/>
 </node>
 </node>
+<node CREATED="1616131917958" ID="ID_1503211454" MODIFIED="1616196734316" TEXT="Arrays">
+<node CREATED="1616132631334" ID="ID_375927038" MODIFIED="1616132634050" TEXT="Map">
+<node CREATED="1616152898200" ID="ID_1355174496" MODIFIED="1616152899782" TEXT="const mapArray = array.map(num =&gt;{return num *2})"/>
+<node CREATED="1616152957238" ID="ID_1449403536" MODIFIED="1616152970019" TEXT="better than forEach because it can return a value"/>
+<node CREATED="1616153217125" ID="ID_467896384" MODIFIED="1616153331933" TEXT="better than foreach becyase we can avoid externam sideffects implementation"/>
 </node>
-<node CREATED="1615788364965" ID="ID_215639864" MODIFIED="1615788378006" TEXT="http://es6-features.org/"/>
+<node CREATED="1616132635231" ID="ID_1088438884" MODIFIED="1616132637130" TEXT="Filter"/>
+<node CREATED="1616132637685" ID="ID_227058083" MODIFIED="1616153983325" TEXT="Reduce">
+<node CREATED="1616153984934" ID="ID_2467037" MODIFIED="1616153986099" TEXT="let reduceArr = array.reduce((accumulator,num)=&gt;{     return accumulator + num; },0)"/>
+</node>
+<node CREATED="1616132744711" ID="ID_1107627665" MODIFIED="1616132785347" TEXT="These 3 Important mentods you will use everyday"/>
+</node>
+<node CREATED="1616196736659" ID="ID_286926503" MODIFIED="1616196743420" TEXT="Objects">
+<node CREATED="1616196743421" ID="ID_194275574" MODIFIED="1616196748484" TEXT="reference type">
+<node CREATED="1616197230635" ID="ID_1963472161" MODIFIED="1616197242776" TEXT="same concept in c/c++">
+<node CREATED="1616197494896" ID="ID_532080586" MODIFIED="1616197514565" TEXT="assign by reference concept"/>
+</node>
+<node CREATED="1616197243666" ID="ID_1953620164" MODIFIED="1616197369361" TEXT="reference type are created by the programmer"/>
+</node>
+<node CREATED="1616196749072" ID="ID_1979945389" MODIFIED="1616197961886" TEXT="context vs scope">
+<node CREATED="1616198021185" ID="ID_523794608" MODIFIED="1616198257226" TEXT="this">
+<node CREATED="1616198070248" ID="ID_1892568487" MODIFIED="1616198230863" TEXT=" keyword is equal to the window object is the defailt"/>
+<node CREATED="1616198074008" ID="ID_1082508708" MODIFIED="1616198110862" TEXT="this means is what is the obecjt environment we are right now">
+<node CREATED="1616198114385" ID="ID_690644395" MODIFIED="1616198130705" TEXT="in simple terms what is the left of the dot"/>
+</node>
+<node CREATED="1616198258655" ID="ID_995311414" MODIFIED="1616198292535" TEXT="to create a new this it should be used inside an object"/>
+</node>
+</node>
+<node CREATED="1616196755800" ID="ID_1003695215" MODIFIED="1616199836090" TEXT="instantiation">
+<node CREATED="1616198352447" ID="ID_537169028" MODIFIED="1616198365190" TEXT="making a copy of an object and reuse the code"/>
+<node CREATED="1616198402536" ID="ID_756142145" MODIFIED="1616198420243" TEXT="making a multiple copies of an object instead of manual coding one by one"/>
+<node CREATED="1616198621127" ID="ID_1358819990" MODIFIED="1616198830305" TEXT="use class keyword to make a class"/>
+<node CREATED="1616198818479" ID="ID_1359893424" MODIFIED="1616199258114" TEXT="use extend keyword for inheritance"/>
+<node CREATED="1616199260759" ID="ID_689473786" MODIFIED="1616199385387" TEXT="use new keword to create a new instance of obj">
+<node CREATED="1616199309619" ID="ID_822046907" MODIFIED="1616199311442" TEXT="const wizard1 = new Wizard(&quot;Caesar&quot;,&quot;Knwift&quot;)"/>
+</node>
+<node CREATED="1616198966239" ID="ID_1587918830" MODIFIED="1616199218705">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      any time we extend<br />we need to call contructor function and<br />super&#160;&#160;to t&#160;&#160;class so you have&#160;&#160;access&#160;&#160;elemnts of parents
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1616208551172" ID="ID_1047272380" MODIFIED="1616208554045" TEXT="https://objectexplorer.netlify.app/"/>
+</node>
+<node CREATED="1616204314731" ID="ID_1992577612" MODIFIED="1616204570668" TEXT="Pass By Value Vs Pass By Reference">
+<node CREATED="1616204329430" ID="ID_604862493" MODIFIED="1616204351371" TEXT="array and object pass by reference"/>
+<node CREATED="1616204352206" ID="ID_1155931770" MODIFIED="1616204365073" TEXT="immutable types are pass by value"/>
+<node CREATED="1616204570669" ID="ID_889682481" MODIFIED="1616204669552" TEXT="How to create copy of object instead of reference?">
+<node CREATED="1616205619181" ID="ID_345831409" MODIFIED="1616205730935" TEXT="Shallow clone">
+<node CREATED="1616205259680" ID="ID_1894225572" MODIFIED="1616205449487">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      //or use new feature called spread operator<br />let clone2 ={...obj}<br />
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1616204589169" ID="ID_1870516312" MODIFIED="1616204659986">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      //syntax on how to copy object<br />const obj={a:'a' b:'b'}<br />let clone =Object.assign({},obj)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1616205732902" ID="ID_1657992481" MODIFIED="1616205806074" TEXT="2 Code above does not copy object within an object"/>
+</node>
+<node CREATED="1616205655308" ID="ID_1957481016" MODIFIED="1616206237089" TEXT="Deep Cloning">
+<node CREATED="1616205691981" ID="ID_206217374" MODIFIED="1616206109267">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      let obj={name:&quot;Caesar&quot;,lname:&quot;Hinlo&quot;,education:{elementary:&quot;JJS&quot;, college:&quot;USLS&quot;}}<br />let superClone = JSON.parse(JSON.stringify(obj))<br />
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1616206237091" ID="ID_1877658079" MODIFIED="1616206261262" TEXT="Rarely used of performance issue if obj is to deep"/>
+</node>
+</node>
+<node CREATED="1616204673054" ID="ID_1894487526" MODIFIED="1616205616980" TEXT="How to create copy of array instead of reference?">
+<node CREATED="1616204694558" ID="ID_1871694210" MODIFIED="1616204924180">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      const array =[1,2,3,4,5]<br />let array2 = array.concat(09208888411);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1616205073216" ID="ID_548854056" MODIFIED="1616205116889">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      var c = [1,2,3,4,5];<br />var d =[].concat(c);<br />d.push('09208888411');<br />
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1616206915949" ID="ID_1113747170" MODIFIED="1616207971306" TEXT="Type Coercion">
+<node CREATED="1616207900162" ID="ID_1933947483" MODIFIED="1616207919048" TEXT="converting a certain type to another type"/>
+<node CREATED="1616207971309" ID="ID_179882774" MODIFIED="1616207984254" TEXT="JS is heavily type cophersion"/>
+<node CREATED="1616208058791" ID="ID_1300594864" MODIFIED="1616208067541" TEXT="always use === instead of =="/>
+<node CREATED="1616208111893" ID="ID_279329737" MODIFIED="1616208138069" TEXT="eg.) 1 is coverted to true in if statements"/>
+<node CREATED="1616208189796" ID="ID_1554580433" MODIFIED="1616208208209" TEXT="https://dorey.github.io/JavaScript-Equality-Table/">
+<icon BUILTIN="full-4"/>
+</node>
+</node>
+<node CREATED="1616210117392" ID="ID_172360997" MODIFIED="1616210230439" TEXT="es7 new features">
+<node CREATED="1616210230442" ID="ID_1461733308" MODIFIED="1616210416611" TEXT="arry.includes(&quot;value&quot;) //check it items exsist in an array"/>
+<node CREATED="1616211105533" ID="ID_206595214" MODIFIED="1616211106845" TEXT="dragons.filter(name =&gt; name.includes(&apos;John&apos;)) // [&apos;Johnathan&apos;]"/>
+</node>
+<node CREATED="1616211210477" ID="ID_569034372" MODIFIED="1616211223859" TEXT="es8 new features">
+<node CREATED="1616212276525" ID="ID_563815565" MODIFIED="1616212307902" TEXT=".padStart and .padEnd"/>
+</node>
+</node>
 </node>
 <node CREATED="1615114470660" ID="ID_1124112514" MODIFIED="1615114592394" TEXT="Framework">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -471,11 +620,14 @@
 <node CREATED="1615115494281" ID="ID_1264143688" MODIFIED="1615115532954" POSITION="right" TEXT="20 JS PROJECTS">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 </node>
-<node CREATED="1615172032697" ID="ID_1195715103" MODIFIED="1615172038475" POSITION="left" TEXT="Items to review">
+<node CREATED="1615172032697" ID="ID_1195715103" MODIFIED="1616198914049" POSITION="left" TEXT="Items to review">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1616123112558" ID="ID_1525941898" MODIFIED="1616123139607" TEXT="Review all Translate figma to code after all courses">
 <node CREATED="1616131797114" ID="ID_757390711" MODIFIED="1616131797114" TEXT=""/>
 </node>
 <node CREATED="1616131799902" ID="ID_1316566591" MODIFIED="1616131835517" TEXT="composing, currining, closurse"/>
+<node CREATED="1616132195133" ID="ID_1205567392" MODIFIED="1616132200708" TEXT="For each"/>
+<node CREATED="1616198916886" ID="ID_289512303" MODIFIED="1616198932474" TEXT="instantation and context"/>
 </node>
 <node CREATED="1615774244383" ID="ID_1836634017" MODIFIED="1615774250244" POSITION="left" TEXT="Design inspiration">
 <node CREATED="1615774265232" ID="ID_1809207277" MODIFIED="1615774269128" TEXT="https://www.awwwards.com/"/>
@@ -498,6 +650,66 @@
 <node CREATED="1616129765733" ID="ID_1359471027" MODIFIED="1616129838880" TEXT="Minimize dom manipulation becuase browersers&#xa; need to work very hard thus affects pefformancce and increases bugs"/>
 <node CREATED="1616129992022" ID="ID_1975847037" MODIFIED="1616130015750" TEXT="is a copy of a dom in a javascript object and react under the hood changes the view"/>
 </node>
+</node>
+</node>
+<node CREATED="1616213039736" ID="ID_1099495827" MODIFIED="1616220298241" POSITION="left" TEXT="Git/Github">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1616219841617" ID="ID_1106214321" MODIFIED="1616219976793" TEXT="Upload to Github">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1616219067829" ID="ID_794202853" MODIFIED="1616219916015" TEXT="Download files">
+<node CREATED="1616219111617" ID="ID_458192709" MODIFIED="1616219382282" TEXT="git clone &lt;LINK OF REPO&gt;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1616219252224" ID="ID_1668852104" MODIFIED="1616219323314" TEXT="Check status of track or untraced files">
+<node CREATED="1616219285565" ID="ID_573378369" MODIFIED="1616219383072" TEXT="git status">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1616219364689" ID="ID_1552853905" MODIFIED="1616220004504" TEXT="add files to be commited">
+<node CREATED="1616219378543" ID="ID_1040046192" MODIFIED="1616219383887" TEXT="git add">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1616220005983" ID="ID_1150937124" MODIFIED="1616220016760" TEXT="git add .  to all all files">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1616219435392" ID="ID_346154035" MODIFIED="1616219552431" TEXT="Commit files to github">
+<node CREATED="1616219538208" ID="ID_748726349" MODIFIED="1616219548374" TEXT="git commit">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1616219553726" ID="ID_1855511769" MODIFIED="1616219593289" TEXT="git commit -m &quot;&lt;INSERT MESSAGE&gt;&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1616219673727" ID="ID_1251527839" MODIFIED="1616219702836" TEXT="Let github know that these  are changes">
+<node CREATED="1616219705742" ID="ID_182286841" MODIFIED="1616219711045" TEXT="Git push">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1616219871983" ID="ID_1975955004" MODIFIED="1616219985948" TEXT="Download from GitHub">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1616219111617" ID="ID_871410363" MODIFIED="1616219382282" TEXT="git clone &lt;LINK OF REPO&gt;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1616220108954" ID="ID_1398260005" MODIFIED="1616220132988" TEXT="Get latest files">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1616220134687" ID="ID_1648340026" MODIFIED="1616220138606" TEXT="git pull"/>
+</node>
+<node CREATED="1616220298242" ID="ID_1820568134" MODIFIED="1616220489441">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      OTHER NOTES:<br />Github changes name <b>master</b>&#160;to <b>main</b>&#160;<br />because it sounds less offensive! HAHA<br />Old cold with still use master<br />
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
