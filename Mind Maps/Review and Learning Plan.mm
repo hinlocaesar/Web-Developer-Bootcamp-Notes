@@ -409,8 +409,7 @@
       let obj={name:&quot;Caesar&quot;,lname:&quot;Hinlo&quot;,education:{elementary:&quot;JJS&quot;, college:&quot;USLS&quot;}}<br />let superClone = JSON.parse(JSON.stringify(obj))<br />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1616206237091" ID="ID_1877658079" MODIFIED="1616206261262" TEXT="Rarely used of performance issue if obj is to deep"/>
 </node>
@@ -426,8 +425,7 @@
       const array =[1,2,3,4,5]<br />let array2 = array.concat(09208888411);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1616205073216" ID="ID_548854056" MODIFIED="1616205116889">
 <richcontent TYPE="NODE"><html>
@@ -439,8 +437,7 @@
       var c = [1,2,3,4,5];<br />var d =[].concat(c);<br />d.push('09208888411');<br />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -628,6 +625,7 @@
 <node CREATED="1616131799902" ID="ID_1316566591" MODIFIED="1616131835517" TEXT="composing, currining, closurse"/>
 <node CREATED="1616132195133" ID="ID_1205567392" MODIFIED="1616132200708" TEXT="For each"/>
 <node CREATED="1616198916886" ID="ID_289512303" MODIFIED="1616198932474" TEXT="instantation and context"/>
+<node CREATED="1616290255441" ID="ID_1390757058" MODIFIED="1616290282607" TEXT="How to update my es knowege without wathcing any tutorial from ztm ano resource?"/>
 </node>
 <node CREATED="1615774244383" ID="ID_1836634017" MODIFIED="1615774250244" POSITION="left" TEXT="Design inspiration">
 <node CREATED="1615774265232" ID="ID_1809207277" MODIFIED="1615774269128" TEXT="https://www.awwwards.com/"/>
@@ -708,8 +706,7 @@
       OTHER NOTES:<br />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1616222139594" ID="ID_1596099009" MODIFIED="1616222152499" TEXT="Dont work on master always branch off"/>
 <node CREATED="1616222162134" ID="ID_963015057" MODIFIED="1616222171980" TEXT="Github changes name master&#xa0;to main&#xa0; because &#xa;it sounds less offensive! HAHA Old cold with still use master "/>
 </node>
