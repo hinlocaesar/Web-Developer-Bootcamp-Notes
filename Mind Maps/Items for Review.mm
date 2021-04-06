@@ -19,5 +19,19 @@
 <icon BUILTIN="closed"/>
 </node>
 </node>
+<node CREATED="1617424041212" ID="ID_284849224" MODIFIED="1617424047556" POSITION="left" TEXT="React Synthetic event">
+<node CREATED="1617424214386" ID="ID_988113213" MODIFIED="1617424217149" TEXT="onChange"/>
+<node CREATED="1617424217705" ID="ID_1328826898" MODIFIED="1617424222955" TEXT="onClick"/>
+</node>
+<node CREATED="1617426747570" ID="ID_713563255" MODIFIED="1617426832395" POSITION="right" TEXT="Move master to main image react app"/>
+<node CREATED="1617426832867" ID="ID_1625754068" MODIFIED="1617426847944" POSITION="right" TEXT="Reasearch on important items that needed to be memorized"/>
+<node CREATED="1617427101520" ID="ID_1993381824" MODIFIED="1617427107807" POSITION="left" TEXT="when to use this keyword"/>
+<node CREATED="1617443808106" ID="ID_1491896642" MODIFIED="1617443825611" POSITION="left" TEXT="Implement other models for clarifai after the course">
+<node CREATED="1617443825613" ID="ID_1097586135" MODIFIED="1617443840185" TEXT="implement a feature that describe a photo"/>
+</node>
+<node CREATED="1617447052460" ID="ID_926969030" MODIFIED="1617447071365" POSITION="right" TEXT="Computeation for border box on image-detector"/>
+<node CREATED="1617454152091" ID="ID_806735797" MODIFIED="1617454158736" POSITION="left" TEXT="what is the document object?"/>
+<node CREATED="1617540625187" ID="ID_1320060231" MODIFIED="1617540626767" POSITION="right" TEXT="https://www.khanacademy.org/computing/computer-programming/sql  https://www.codecademy.com/learn/learn-sql"/>
+<node CREATED="1617626238728" ID="ID_712019331" MODIFIED="1617626341766" POSITION="left" TEXT=""/>
 </node>
 </map>
